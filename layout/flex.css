@@ -1,0 +1,33 @@
+.bubble {
+    background-color: #3a3a3a;
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+.container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.column {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.classA {
+    flex: 2;
+}
+.classB {
+    flex: 2;
+}
+.classC {
+    flex: 1;
+}
+.classD {
+    flex: 3;
+}
+.classE {
+    flex: 1;
+}
